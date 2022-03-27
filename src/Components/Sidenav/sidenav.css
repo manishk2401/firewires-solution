@@ -1,0 +1,13 @@
+.navisActive {
+  color: green;
+}
+
+.navnotActive {
+  color: red;
+}
+
+.sidenav {
+  display: flex;
+  flex-direction: column;
+  min-width: 200px;
+}

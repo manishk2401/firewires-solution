@@ -1,0 +1,53 @@
+.navisActive {
+  color: white;
+  background: #3c3d46;
+  border-left: 5px solid white;
+}
+
+.logo {
+  padding: 5px;
+  background: blue;
+  border-radius: 50%;
+  margin-right: 10px;
+  color: white;
+  width: 25px;
+  height: 25px;
+}
+
+.logoDiv {
+  padding: 10px;
+  text-decoration: none;
+  color: gray;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.navnotActive {
+  color: #9fa2b4;
+  border-left: 5px solid transparent;
+}
+
+.sidenav {
+  display: flex;
+  /* width: 500px; */
+  flex-direction: column;
+}
+
+.navLink {
+  text-decoration: none;
+  height: 40px;
+  padding-left: 10%;
+  display: flex;
+  align-items: center;
+}
+
+.navLink svg {
+  margin-right: 10px;
+}
+
+.navLink:hover {
+  background: #3c3d46;
+  color: white;
+  border-left: 5px solid rgba(255, 255, 255, 0.527);
+}

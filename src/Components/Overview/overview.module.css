@@ -1,0 +1,53 @@
+.widgetHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.widgetFooter p {
+  margin: 10px 0px;
+}
+
+.widgetContainer {
+  padding: 10px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px #c9c9c9;
+}
+
+.widgetRight {
+  text-align: right;
+}
+
+.widgetLeft {
+  text-align: left;
+  position: relative;
+}
+
+.refundedOrder {
+  background-color: rgba(254, 243, 199, 1);
+  color: rgba(217, 119, 6, 1);
+  border-radius: 15px;
+  padding: 4px 10px;
+}
+
+.approvedOrder {
+  background-color: rgba(209, 250, 229, 1);
+  color: rgba(5, 150, 105, 1);
+  border-radius: 15px;
+  padding: 4px 10px;
+}
+.pendingOrder {
+  background-color: #f1f5f9;
+  color: rgb(69, 86, 110);
+  border-radius: 15px;
+  padding: 4px 10px;
+}
+
+.widgetIcon {
+  border-radius: 12px;
+  padding: 17px;
+  color: white;
+  position: absolute;
+  top: -40%;
+  left: 10px;
+}

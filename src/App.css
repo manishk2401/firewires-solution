@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+.app-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.app-container .sidenavmenu {
+  flex: 1 15%;
+  background: #363740;
+}
+
+.app-container .wrapper {
+  flex: 1 85%;
+  background: #f7f8fc;
+}
